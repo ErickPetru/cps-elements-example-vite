@@ -2,9 +2,11 @@
 
 Um modelo de configuração mínima demonstrando como importar componentes [CPS Elements](https://github.com/cpsrepositorio/cps-elements) com [Vite](https://vitejs.dev) como empacotador do projeto.
 
+> **CPS Elements** é parte do projeto de UI/UX institucional, que também sustenta o [CPS Design System](https://cpsrepositorio.github.io/cps-design-system/), projetados originalmente pelo professor [Erick Petrucelli](https://github.com/ErickPetru). Independentemente de suas origens e motivações iniciais, é um projeto totalmente _open-source_ disponível sob os termos da licença [MIT](https://github.com/cpsrepositorio/cps-elements/blob/main/LICENSE.md).
+
 Curiosamente, este exemplo na verdade mostra como nenhuma configuração extra é necessária com Vite! Apenas a instalação da biblioteca de componentes e as importações básicas de estilos e componentes, fim.
 
-Observe porém que Vite pode ser usado com _frameworks_ JavaScript, e com eles configurações extras podem ser necessárias. Mas para utilização diretamente com Web nativa, ou seja, HTML, CSS e JavaScript puros, tudo é _out-of-the-box_.
+Observe que Vite pode ser usado com _frameworks_ JavaScript, onde configurações extras podem ser necessárias. Mas para utilização com Web nativa, ou seja, HTML, CSS e JavaScript puros, tudo é _out-of-the-box_.
 
 ## Visualizando no StackBlitz
 
