@@ -1,6 +1,6 @@
 # CPS Elements - Exemplo - Vite
 
-Uma modelo de configuração mínima demonstrando como importar componentes [CPS Elements](https://github.com/cpsrepositorio/cps-elements) com [Vite](https://vitejs.dev) como empacotador do projeto.
+Um modelo de configuração mínima demonstrando como importar componentes [CPS Elements](https://github.com/cpsrepositorio/cps-elements) com [Vite](https://vitejs.dev) como empacotador do projeto.
 
 Curiosamente, este exemplo na verdade mostra como nenhuma configuração extra é necessária com Vite! Apenas a instalação da biblioteca de componentes e as importações básicas de estilos e componentes, fim.
 
