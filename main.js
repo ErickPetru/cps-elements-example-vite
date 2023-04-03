@@ -1,17 +1,17 @@
-import './style.css';
-import elementsLogo from './cps-elements.svg';
-import viteLogo from '/vite.svg';
-import { setupCounter } from './counter.js';
+import "./style.css";
+import elementsLogo from "./cps-elements.svg";
+import viteLogo from "/vite.svg";
+import { setupCounter } from "./counter.js";
 
-import '@cps-elements/web/themes/dark.css';
+import "@cps-elements/web/themes/dark.css";
 
-export { CpsButton } from '@cps-elements/web/components/button.js';
-export { CpsIcon } from '@cps-elements/web/components/icon.js';
+export { CpsButton } from "@cps-elements/web/components/button.js";
+export { CpsIcon } from "@cps-elements/web/components/icon.js";
 
-import { setBasePath } from '@cps-elements/web/utilities/base-path.js';
-setBasePath('https://cdn.jsdelivr.net/npm/@cps-elements/web');
+import { setBasePath } from "@cps-elements/web/utilities/base-path.js";
+setBasePath("/");
 
-document.querySelector('#app').innerHTML = `
+document.querySelector("#app").innerHTML = `
   <a href="https://vitejs.dev" target="_blank">
     <img src="${viteLogo}" class="logo" alt="Vite logo" />
   </a>
@@ -31,4 +31,4 @@ document.querySelector('#app').innerHTML = `
   </p>
 `;
 
-setupCounter(document.querySelector('#counter'));
+setupCounter(document.querySelector("#counter"));

@@ -12,6 +12,7 @@
     "@cps-elements/web": "^0.1.7"
   },
   "devDependencies": {
-    "vite": "^4.2.1"
+    "vite": "^4.2.1",
+    "vite-plugin-static-copy": "^0.13.1"
   }
 }

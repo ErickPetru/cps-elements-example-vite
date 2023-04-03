@@ -3,10 +3,10 @@ export function setupCounter(element) {
   const setCounter = (count) => {
     counter = count;
     element.innerHTML = `
-      <cps-icon name="info"></cps-icon>
+      <cps-icon slot="prefix" name="info"></cps-icon>
       Count is <b>${counter}</b>
     `;
   };
-  element.addEventListener('click', () => setCounter(counter + 1));
+  element.addEventListener("click", () => setCounter(counter + 1));
   setCounter(0);
 }
