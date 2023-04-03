@@ -3,13 +3,21 @@ import elementsLogo from "./cps-elements.svg";
 import viteLogo from "/vite.svg";
 import { setupCounter } from "./counter.js";
 
+// Carregar os temas conforme desejado.
 import "@cps-elements/web/themes/dark.css";
 
-export { CpsButton } from "@cps-elements/web/components/button.js";
-export { CpsIcon } from "@cps-elements/web/components/icon.js";
+// Carregar os componentes utilizados.
+import "@cps-elements/web/components/button.js";
+import "@cps-elements/web/components/icon.js";
 
+// Configurar o caminho base para os recursos incorporados (como ícones).
 import { setBasePath } from "@cps-elements/web/utilities/base-path.js";
 setBasePath("/");
+
+// Usar o caminho por CDN, se não quiser lidar com cópia de recursos localmente.
+// setBasePath('https://cdn.jsdelivr.net/npm/@cps-elements/web');
+
+// Agora <cps-button> e <cps-icon> prontos para utilização no HTML!
 
 document.querySelector("#app").innerHTML = `
   <a href="https://vitejs.dev" target="_blank">
