@@ -6,9 +6,9 @@ Um modelo de configuração mínima demonstrando como importar componentes [CPS 
 
 Curiosamente, este exemplo na verdade mostra como nenhuma configuração extra é necessária com Vite! Apenas a instalação da biblioteca de componentes e as importações básicas de estilos e componentes, fim.
 
-Opcionalmente, recursos como ícones podem carregados pela instalação local com o _bundler_ ao invés de serem carregados por CDN. Para tal, a única configuração Vite necessária é copiar os ícones de `node_modules/@cps-elements/web/assets` para a pasta `assets` de seu próprio projeto, através do `vite-plugin-static-copy`.
+_Opcionalmente_, recursos podem carregados pela instalação local ao invés de serem carregados por CDN. Para tal, a única configuração extra necessária é copiar os ícones de `node_modules/@cps-elements/web/assets` para `assets` da distribuição empacotada, através do `vite-plugin-static-copy`. De fato, esta escolha opcional é o único motivo para o qual este projeto de exemplo contém um arquivo [vite.config.js](./vite.config.js).
 
-Observe que Vite pode ser usado com _frameworks_ JavaScript, onde configurações extras podem ser necessárias. Mas para utilização com Web nativa, ou seja, HTML, CSS e JavaScript puros, tudo é _out-of-the-box_.
+Observe que Vite pode ser usado com _frameworks_ JavaScript, onde configurações extras podem ser necessárias, embora em geral rápidas e bem documentadas. De qualquer forma, para utilização com Web nativa, ou seja, HTML, CSS e JavaScript puros, tudo é _out-of-the-box_.
 
 ## Visualizando no StackBlitz
 
